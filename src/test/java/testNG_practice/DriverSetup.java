@@ -1,4 +1,4 @@
-package overall_test;
+package testNG_practice;
 
 import org.openqa.selenium.WebDriver;
 
@@ -10,8 +10,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class DriverSetup {
 	
 	public static WebDriver driver;
-	public static String baseUrl = "http://18.209.122.163/admin/dashboard";
-		//System.setProperty("webdriver.chrome.driver", "F:\\Software\\Java\\Tools\\Selenium\\Drivers\\chromedriver_win32\\chromedriver.exe");
 	    
 	@BeforeSuite
 	public static void setDriver() {

@@ -4,8 +4,6 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class VerifyLogin extends DriverSetup{
-
-	public static String baseUrl = "http://18.209.122.163/admin/dashboard";
 	
 	
     @Test
