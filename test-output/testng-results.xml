@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-09T11:27:50 BDT" name="Default suite" finished-at="2021-09-09T11:27:55 BDT" duration-ms="5254">
+  <suite started-at="2021-09-13T13:29:24 BDT" name="Default suite" finished-at="2021-09-13T13:29:37 BDT" duration-ms="12895">
     <groups>
     </groups>
-    <test started-at="2021-09-09T11:27:50 BDT" name="Default test" finished-at="2021-09-09T11:27:55 BDT" duration-ms="5254">
-      <class name="overall_test.SecurityTesting">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:overall_test.SecurityTesting@793be5ca]" started-at="2021-09-09T11:27:48 BDT" name="setDriver" finished-at="2021-09-09T11:27:50 BDT" duration-ms="1685" status="PASS">
+    <test started-at="2021-09-13T13:29:24 BDT" name="Default test" finished-at="2021-09-13T13:29:37 BDT" duration-ms="12895">
+      <class name="extentReport.Login">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:extentReport.Login@24fcf36f]" started-at="2021-09-13T13:29:22 BDT" name="setDriver" finished-at="2021-09-13T13:29:24 BDT" duration-ms="2823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="isWebSiteSecure()[pri:0, instance:overall_test.SecurityTesting@793be5ca]" started-at="2021-09-09T11:27:50 BDT" name="isWebSiteSecure" finished-at="2021-09-09T11:27:55 BDT" duration-ms="5227" status="PASS">
+        <test-method signature="verify_login()[pri:0, instance:extentReport.Login@24fcf36f]" started-at="2021-09-13T13:29:24 BDT" name="verify_login" finished-at="2021-09-13T13:29:37 BDT" duration-ms="12864" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- isWebSiteSecure -->
-        <test-method is-config="true" signature="close()[pri:0, instance:overall_test.SecurityTesting@793be5ca]" started-at="2021-09-09T11:27:55 BDT" name="close" finished-at="2021-09-09T11:27:55 BDT" duration-ms="129" status="PASS">
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:extentReport.Login@24fcf36f]" started-at="2021-09-13T13:29:37 BDT" name="close" finished-at="2021-09-13T13:29:38 BDT" duration-ms="379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- overall_test.SecurityTesting -->
+      </class> <!-- extentReport.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

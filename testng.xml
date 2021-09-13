@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="overall_test.SecurityTesting"/>
+      <class name="testNG_practice.Dropdown"/>
+      <class name="testNG_practice.PageRefresh"/>
+      <class name="testNG_practice.DoubleClick"/>
+      <class name="overall_test.VerifyTitle"/>
+      <class name="overall_test.VerifyLogin"/>
+      <class name="Jira_Issues.Eas182"/>
+      <class name="testNG_practice.Scrolling"/>
+      <class name="testNG_practice.ClickRadioButton"/>
+      <class name="overall_test.Store"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
