@@ -26,6 +26,13 @@
           <include name="setDriver"/>
         </methods>
       </class> <!-- overall_test.VerifyTitle -->
+      <class name="data_driven_testing.DataDrivenTest">
+        <methods>
+          <include name="setDriver"/>
+          <include name="loginTest" invocation-numbers="1 2"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- data_driven_testing.DataDrivenTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

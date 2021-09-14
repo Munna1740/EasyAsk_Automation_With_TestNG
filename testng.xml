@@ -3,6 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="extentReport.Login"/>
+      <class name="data_driven_testing.DataDrivenTest"/>
       <class name="overall_test.SecurityTesting"/>
       <class name="testNG_practice.Dropdown"/>
       <class name="testNG_practice.PageRefresh"/>

@@ -3,77 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="overall_test.SecurityTesting">
-        <methods>
-          <include name="close"/>
-          <include name="isWebSiteSecure"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- overall_test.SecurityTesting -->
-      <class name="testNG_practice.ClickRadioButton">
+      <class name="data_driven_testing.WebTableToExcel">
         <methods>
           <include name="setDriver"/>
-          <include name="clickRadioButton"/>
+          <include name="webScrapping"/>
           <include name="close"/>
         </methods>
-      </class> <!-- testNG_practice.ClickRadioButton -->
-      <class name="overall_test.Store">
-        <methods>
-          <include name="verifyLogin"/>
-          <include name="close"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- overall_test.Store -->
-      <class name="testNG_practice.DoubleClick">
-        <methods>
-          <include name="setDriver"/>
-          <include name="doubleCLick"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- testNG_practice.DoubleClick -->
-      <class name="testNG_practice.Dropdown">
-        <methods>
-          <include name="dropDown"/>
-          <include name="setDriver"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- testNG_practice.Dropdown -->
-      <class name="testNG_practice.PageRefresh">
-        <methods>
-          <include name="pageRefresh"/>
-          <include name="setDriver"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- testNG_practice.PageRefresh -->
-      <class name="overall_test.VerifyTitle">
-        <methods>
-          <include name="close"/>
-          <include name="verifyTitle"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- overall_test.VerifyTitle -->
-      <class name="overall_test.VerifyLogin">
-        <methods>
-          <include name="close"/>
-          <include name="verifyLogin"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- overall_test.VerifyLogin -->
-      <class name="testNG_practice.Scrolling">
-        <methods>
-          <include name="scrolling"/>
-          <include name="setDriver"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- testNG_practice.Scrolling -->
-      <class name="Jira_Issues.Eas182">
-        <methods>
-          <include name="close"/>
-          <include name="eas182"/>
-          <include name="verify_login"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- Jira_Issues.Eas182 -->
+      </class> <!-- data_driven_testing.WebTableToExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
